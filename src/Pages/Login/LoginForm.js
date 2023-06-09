@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '@fortawesome/fontawesome-free/css/all.css';
-
 import './LoginForm.css'; // Import the CSS file for styling
+
 
 const LoginForm = () => {
     const [passwordVisible, setPasswordVisible] = useState(false);
@@ -9,6 +9,7 @@ const LoginForm = () => {
     const togglePasswordVisibility = () => {
         setPasswordVisible(!passwordVisible);
     };
+
 
     return (
         <div className="container">
