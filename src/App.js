@@ -14,7 +14,6 @@ import AddFeeHeads from "../src/Pages/Dashboard/AddFeeHeadsForm";
 import Mapping from "../src/Pages/Dashboard/MapFeeHeadsForm";
 
 
-
 const App = () => {
 
   return (
